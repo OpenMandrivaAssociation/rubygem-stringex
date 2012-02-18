@@ -4,8 +4,8 @@
 Summary:	Some [hopefully] useful extensions to Ruby's String class
 Name:		rubygem-%{rbname}
 
-Version:	1.3.0
-Release:	2
+Version:	1.3.2
+Release:	1
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://github.com/rsl/stringex
@@ -40,12 +40,12 @@ Documents, RDoc & RI documentation for %{name}.
 %files
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
+%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/stringex
+%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/stringex/unidecoder_data
 %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/lucky_sneaks
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/lucky_sneaks/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/lucky_sneaks/unidecoder_data
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/lucky_sneaks/unidecoder_data/*.yml
 %{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
+%{ruby_gemdir}//gems/%{rbname}-%{version}/lib/stringex/unidecoder_data/*
+%{ruby_gemdir}//gems/%{rbname}-%{version}/lib/stringex/*.rb
 
 %files doc
 %doc %{ruby_gemdir}/gems/%{rbname}-%{version}/*.rdoc
