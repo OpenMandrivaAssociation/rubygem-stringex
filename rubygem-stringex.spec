@@ -39,15 +39,15 @@ Documents, RDoc & RI documentation for %{name}.
 
 %files
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/stringex
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/stringex/unidecoder_data
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/stringex
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/stringex/unidecoder_data
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
 %{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
-%{ruby_gemdir}//gems/%{rbname}-%{version}/lib/stringex/unidecoder_data/*
-%{ruby_gemdir}//gems/%{rbname}-%{version}/lib/stringex/*.rb
+# %{ruby_gemdir}//gems/%{rbname}-%{version}/lib/stringex/unidecoder_data/*
+# %{ruby_gemdir}//gems/%{rbname}-%{version}/lib/stringex/*.rb
 
 %files doc
 %doc %{ruby_gemdir}/gems/%{rbname}-%{version}/*.rdoc
-%doc %{ruby_gemdir}/gems/%{rbname}-%{version}/MIT-LICENSE
+# %doc %{ruby_gemdir}/gems/%{rbname}-%{version}/MIT-LICENSE
 %doc %{ruby_gemdir}/doc/%{rbname}-%{version}
