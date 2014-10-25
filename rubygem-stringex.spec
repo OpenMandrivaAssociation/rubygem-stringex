@@ -18,9 +18,9 @@ translation], Unidecoder [Unicode to Ascii transliteration], and
 StringExtensions [miscellaneous helper methods for the String class].
 
 %files
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*
-%{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
+%dir %{gem_dir}/gems/%{rbname}-%{version}/lib/
+%{gem_dir}/gems/%{rbname}-%{version}/lib/*
+%{gem_dir}/specifications/%{rbname}-%{version}.gemspec
 
 #----------------------------------------------------------------------------
 
@@ -34,9 +34,9 @@ BuildArch:	noarch
 Documents, RDoc & RI documentation for %{name}.
 
 %files doc
-%doc %{ruby_gemdir}/gems/%{rbname}-%{version}/*.rdoc
-%doc %{ruby_gemdir}/gems/%{rbname}-%{version}/MIT-LICENSE
-%doc %{ruby_gemdir}/doc/%{rbname}-%{version}
+%doc %{gem_dir}/gems/%{rbname}-%{version}/*.rdoc
+%doc %{gem_dir}/gems/%{rbname}-%{version}/MIT-LICENSE
+%doc %{gem_dir}/doc/%{rbname}-%{version}
 
 #----------------------------------------------------------------------------
 
