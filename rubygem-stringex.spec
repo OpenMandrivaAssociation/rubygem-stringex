@@ -3,7 +3,7 @@
 Summary:	Some [hopefully] useful extensions to Ruby's String class
 Name:		rubygem-%{rbname}
 Version:	1.5.1
-Release:	1
+Release:	2
 License:	GPLv2+ or Ruby
 Group:		Development/Ruby
 Url:		http://github.com/rsl/stringex
