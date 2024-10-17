@@ -6,7 +6,7 @@ Version:	1.5.1
 Release:	2
 License:	GPLv2+ or Ruby
 Group:		Development/Ruby
-Url:		http://github.com/rsl/stringex
+Url:		https://github.com/rsl/stringex
 Source0:	http://gems.rubyforge.org/gems/%{rbname}-%{version}.gem
 BuildRequires:	rubygems
 BuildArch:	noarch
